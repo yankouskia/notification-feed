@@ -50,7 +50,7 @@ window.createToast = ({
 });
 
 
-const exampleSocket = new WebSocket('ws://localhost:3000/stream?q=love');
+const exampleSocket = new WebSocket('ws://ec2-54-153-34-119.us-west-1.compute.amazonaws.com:3000/stream?q=love');
 exampleSocket.onmessage = function (event) {
   const data = JSON.parse(event.data);
   window.createToast(data);
