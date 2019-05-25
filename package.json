@@ -1,0 +1,35 @@
+{
+  "name": "notification-feed",
+  "version": "0.0.1",
+  "description": "Secured notification feed designed for different providers usage",
+  "main": "./dist/app.js",
+  "repository": "git@github.com:yankouskia/notification-feed.git",
+  "author": "yankouskia <aleksandr.yankovskiy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "express-ws": "^4.0.0",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4",
+    "twit": "^2.2.11"
+  },
+  "scripts": {
+    "server": "node ./server/index.js",
+    "build": "webpack",
+    "build:prod": "NODE_ENV=production webpack -p",
+    "client": "webpack-dev-server"
+  }
+}
