@@ -39,7 +39,7 @@ class Notificator {
     iframe.frameBorder = '0';
     iframe.style.width = '100%'
     iframe.style.height = '100%'
-    iframe.src = `https://ec2-54-153-34-119.us-west-1.compute.amazonaws.com:3000?q=${this.search}`;
+    iframe.src = `https://notification-feed.herokuapp.com/?q=${this.search}`;
 
     this.container = container;
     this.iframe = iframe;

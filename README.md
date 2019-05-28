@@ -7,7 +7,7 @@ Notification feed
 ```js
 const script = document.createElement('script');
 
-script.src = 'http://127.0.0.1:3000/sdk.js';
+script.src = 'https://ec2-54-153-34-119.us-west-1.compute.amazonaws.com:3000//sdk.js';
 
 script.onload = () => {
   window.notificator = new window.Notificator();

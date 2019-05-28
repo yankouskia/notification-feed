@@ -27,6 +27,7 @@
     "twit": "^2.2.11"
   },
   "scripts": {
+    "start": "webpack -p && node ./server/index.js",
     "server": "node ./server/index.js",
     "build": "webpack",
     "build:prod": "NODE_ENV=production webpack -p",

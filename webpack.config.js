@@ -32,6 +32,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new webpack.EnvironmentPlugin(['NODE_ENV', 'PORT']),
     new HTMLWebpackPlugin({
       template: path.resolve(__dirname, 'client', 'template.html'),
       inject: false,

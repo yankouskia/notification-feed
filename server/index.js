@@ -136,4 +136,4 @@ app.ws('/stream', function(ws, req) {
   stream.on('tweet', handler);
 });
 
-app.listen(3000, () => console.log('Started on http://127.0.0.1:3000'));
+app.listen(process.env.PORT, () => console.log(`Started on https://notification-feed.herokuapp.com/ PORT: ${process.env.PORT}`));
