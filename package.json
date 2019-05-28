@@ -28,9 +28,9 @@
     "webpack-cli": "^3.3.2"
   },
   "scripts": {
-    "start": "./node_modules/.bin/webpack -p && pm2 start ./server/index.js",
+    "start": "./node_modules/.bin/pm2 start ./server/index.js",
+    "build": "./node_modules/.bin/webpack -p",
     "server": "node ./server/index.js",
-    "build": "webpack",
     "build:prod": "NODE_ENV=production webpack -p",
     "client": "webpack-dev-server"
   }
