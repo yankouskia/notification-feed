@@ -50,7 +50,7 @@ window.createToast = ({
 });
 
 
-const exampleSocket = new WebSocket('ws://notification-feed.herokuapp.com/stream?q=love');
+const exampleSocket = new WebSocket('wss://notification-feed.herokuapp.com/stream?q=love');
 exampleSocket.onmessage = function (event) {
   const data = JSON.parse(event.data);
   window.createToast(data);
