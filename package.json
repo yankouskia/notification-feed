@@ -26,6 +26,13 @@
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2"
   },
+  "keywords": [
+    "widget",
+    "notifications",
+    "twitter",
+    "secured",
+    "easy-to-use"
+  ],
   "scripts": {
     "start": "node ./server/index.js",
     "build": "cross-env NODE_ENV=production webpack -p",
