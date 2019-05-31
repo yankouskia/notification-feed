@@ -1,5 +1,8 @@
+const urlParams = new URLSearchParams(window.location.search);
+const search = urlParams.get('search');
+
 const options = {
-  displayLength: 6000,
+  displayLength: 5000,
   inDuration: 400,
   outDuration: 200,
   activationPercent: 1,
@@ -36,12 +39,7 @@ window.createToast = ({
   image,
 }) => M.toast({
   ...options,
-  html: console.log('html: ', createHtml({
-    message,
-    name,
-    url,
-    image,
-  })) || createHtml({
+  html: createHtml({
     message,
     name,
     url,
@@ -50,8 +48,8 @@ window.createToast = ({
 });
 
 
-const exampleSocket = new WebSocket('wss://notification-feed.herokuapp.com/stream?q=love');
-exampleSocket.onmessage = function (event) {
+const socket = new WebSocket(`ws://localhost:3000/stream?search=${search}`);
+socket.onmessage = function (event) {
   const data = JSON.parse(event.data);
   window.createToast(data);
 };

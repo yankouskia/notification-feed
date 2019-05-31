@@ -34,12 +34,13 @@ class Notificator {
     });
 
     container.style.transition = 'height 1.5s ease-in-out';
+    container.style.zIndex = '10000';
 
     const iframe = document.createElement('iframe');
     iframe.frameBorder = '0';
     iframe.style.width = '100%'
     iframe.style.height = '100%'
-    iframe.src = `https://notification-feed.herokuapp.com/?q=${this.search}`;
+    iframe.src = `http://localhost:3000/?search=${this.search}`;
 
     this.container = container;
     this.iframe = iframe;
@@ -51,6 +52,8 @@ class Notificator {
   createButton() {
     const button = document.createElement('button');
     button.innerText = '↓';
+    button.style.border = '0';
+    button.style.backgroundColor = 'transparent';
     button.style.outline = 'none';
     button.style.borderRadius = '8px';
     button.style.width = '15px';
@@ -60,7 +63,7 @@ class Notificator {
     button.style.top = '3px';
     button.style.display = 'flex';
     button.style.justifyContent = 'center';
-    button.style.fontSize = '10px';
+    button.style.fontSize = '14px';
     button.style.fontWeight = '800';
     button.onclick = () => this.toggle();
     this.button = button;
