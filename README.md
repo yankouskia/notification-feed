@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/yankouskia/notification-feed.svg) ![GitHub contributors](https://img.shields.io/github/contributors/yankouskia/notification-feed.svg) ![Twitter URL](https://img.shields.io/twitter/url/https/github.com/yankouskia/notification-feed.svg?style=social) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/Designed for/yankouskia/notification-feed.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yankouskia/notification-feed/blob/master/LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/yankouskia/notification-feed.svg) ![GitHub contributors](https://img.shields.io/github/contributors/yankouskia/notification-feed.svg) ![Twitter URL](https://img.shields.io/twitter/url/https/github.com/yankouskia/notification-feed.svg?style=social) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/Keys/yankouskia/notification-feed.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yankouskia/notification-feed/blob/master/LICENSE)
 
 # notification-feed
 Notification feed (Currently integrated with Twitter ![Twitter URL](https://img.shields.io/twitter/url/https/github.com/yankouskia/notification-feed.svg?style=social))
@@ -9,7 +9,7 @@ Examples on these web sites are launched just for demonstrating purposes!
 
 http://www.ucla.edu/           |  http://time.com/
 :-------------------------:|:-------------------------:
-<img src="./resources/time.gif" data-canonical-src="./resources/ucla.gif" width="400" />  |  <img src="./resources/public.png" data-canonical-src="./resources/public.png" width="400" />
+<img src="./resources/time.gif" data-canonical-src="./resources/time.gif" width="400" />  |  <img src="./resources/ucla.gif" data-canonical-src="./resources/ucla.gif" width="400" />
 
 
 ## Intergation guide
