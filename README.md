@@ -7,12 +7,16 @@ Notification feed (Currently integrated with Twitter ![Twitter URL](https://img.
 
 Examples on these web sites are launched just for demonstrating purposes!
 
-http://www.ucla.edu/           |  http://time.com/
+www.ucla.edu           |  time.com
 :-------------------------:|:-------------------------:
-<img src="./resources/time.gif" data-canonical-src="./resources/time.gif" width="400" />  |  <img src="./resources/ucla.gif" data-canonical-src="./resources/ucla.gif" width="400" />
+<img src="./resources/time.gif" data-canonical-src="./resources/time.gif" width="420" />  |  <img src="./resources/ucla.gif" data-canonical-src="./resources/ucla.gif" width="420" />
 
 
 ## Intergation guide
+
+If you do not have application at twitter dev go here to create one:
+[Twitter Application Management](https://apps.twitter.com/). Your application
+will be issued an `apiKey` (API Key), a `secretKey` (API secret key), an `accessToken` (Access token) and `accessTokenSecret` (Access token secret). Then just simplmy paste them into `server/env`.
 
 To run notificator widget locally:
 
