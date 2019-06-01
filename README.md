@@ -7,9 +7,13 @@ Notification feed. Currently integrated with Twitter ![Twitter URL](https://img.
 
 Examples on these web sites are launched just for demonstrating purposes!
 
-www.ucla.edu           |  time.com
-:-------------------------:|:-------------------------:
-<img src="./resources/time.gif" data-canonical-src="./resources/time.gif" width="420" />  |  <img src="./resources/ucla.gif" data-canonical-src="./resources/ucla.gif" width="420" />
+www.ucla.edu
+:-------------------------:
+<img src="./resources/ucla.gif" data-canonical-src="./resources/ucla.gif" width="1000" />
+
+http://time.com
+:-------------------------:
+<img src="./resources/time.gif" data-canonical-src="./resources/time.gif" width="1000" />
 
 
 ## Intergation guide
