@@ -1,7 +1,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/yankouskia/notification-feed.svg) ![GitHub contributors](https://img.shields.io/github/contributors/yankouskia/notification-feed.svg) ![Twitter URL](https://img.shields.io/twitter/url/https/github.com/yankouskia/notification-feed.svg?style=social) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/Keys/yankouskia/notification-feed.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yankouskia/notification-feed/blob/master/LICENSE)
 
 # notification-feed
-Notification feed (Currently integrated with Twitter ![Twitter URL](https://img.shields.io/twitter/url/https/github.com/yankouskia/notification-feed.svg?style=social))
+Notification feed. Currently integrated with Twitter ![Twitter URL](https://img.shields.io/twitter/url/https/github.com/yankouskia/notification-feed.svg?style=social). Work in progress, see roadmap below.
 
 ## Demo
 
@@ -53,6 +53,7 @@ window.notificator.terminate();
 - Customizable UI for each feed
 - Facebook, Instagram, custom-service feeds
 - Create SaS
+- Provide as global npm package
 
 
 ## Contributing
