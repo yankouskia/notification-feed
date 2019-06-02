@@ -6,7 +6,7 @@
 - __Integrated with twitter__
 - __Easy to embed__
 
-Notification feed. Currently integrated with Twitter ![Twitter URL](https://img.shields.io/twitter/url/https/github.com/yankouskia/notification-feed.svg?style=social). Work in progress, see roadmap below.
+Notification feed. Currently integrated with Twitter [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/yankouskia.svg?style=social&label=Follow%20%40yankouskia)](https://twitter.com/yankouskia). Work in progress, see roadmap below.
 
 ## Demo
 
